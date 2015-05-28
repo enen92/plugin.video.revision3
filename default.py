@@ -130,10 +130,11 @@ def build_sub_directory(url, name, slug, offset, daily_info):
 			addListItem('* ' + settings.getLocalizedString( 30030 ) + ' *', play_thumb, u, True, 0, infoLabels, fanart)
 	for episode in data['episodes']:
 		studio = episode['show']['name']
-		thumb = episode['images']['medium']
+		if type(episode['images']) == dict: thumb = episode['images']['medium']
+		else: thumb = ''
 		url = episode['media']
 		plot = episode['summary'].encode('ascii', 'ignore')
-		name = episode['name'].encode('ascii', 'ignore')
+		name = str(episode['name']).encode('ascii', 'ignore')
 		episodenum = episode['number']
 		date = episode['published'].rsplit('T')[0]
 		duration = int(episode['duration'])
