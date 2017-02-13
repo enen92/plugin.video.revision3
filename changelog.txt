@@ -1,5 +1,7 @@
 [B]Version 4.0.0[/B]
 - Total re-write
+- Fix broken sections
+- Bump for Krypton repo
 
 [B]Version 3.0.14[/B]
 

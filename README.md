@@ -1,13 +1,19 @@
-# Welcome to your addon
+# Revision3 video addon for Kodi
 
-1. You might want to move this folder into the kodi addon folder for convinience when debugging. It might also be needed to be `enabled` inside of the kodi addon browser.
-2. Now start coding! Just open up the `.py` file in this folder and create what you would like Kodi to do! If you're creating a plugin, please check out [this kodi routing framework](https://github.com/tamland/kodi-plugin-routing) and copy a version of that module to your kodi addon folder.
-3. Write some tests, maybe? We've created a test folder for that, otherwise just delete it ;)
-4. You might want to look at your `addon.xml` it should already be filled, but you will need to understand what your doing and might want to fill in some more info. So read up [here](http://kodi.wiki/view/Addon.xml).
-5. Do you want some settings for your addon? Check the `settings.xml` in the resources folder. And read up [here](http://kodi.wiki/view/Settings.xml).
-6. Read [this info](http://kodi.wiki/view/Add-on_structure#icon.png) and drop an icon for your addon into the `resource` folder and name it `icon.png`.
-7. Read [this](http://kodi.wiki/view/Add-on_structure#fanart.jpg) and drop a addon background into the `resource` folder and name it `fanart.jpg`.
-8. End up with a beautiful Kodi addon! Good for you :) Maybe you want to [share it with us](http://kodi.wiki/view/Submitting_Add-on_updates_on_Github)?
+![Addon icon](https://github.com/enen92/plugin.video.revision3/blob/master/resources/icon.png?raw=true)
 
-### Debugging
-To get the debug logging to work, just set the global kodi logging to true and the debug logging in your addons settings.
+Revision3: The Best TV Shows on the Internet. The leading independent free online video service.
+
+## Features
+- Watch current shows
+- Watch archived shows
+- Download episodes
+
+## Screenshots
+![Screenshot1](https://github.com/enen92/plugin.video.revision3/blob/master/resources/media/screenshots/screenshot-01.jpg?raw=true)
+![Screenshot2](https://github.com/enen92/plugin.video.revision3/blob/master/resources/media/screenshots/screenshot-02.jpg?raw=true)
+![Screenshot3](https://github.com/enen92/plugin.video.revision3/blob/master/resources/media/screenshots/screenshot-03.jpg?raw=true)
+![Screenshot4](https://github.com/enen92/plugin.video.revision3/blob/master/resources/media/screenshots/screenshot-04.jpg?raw=true)
+
+*Independent plugin (not affiliated with Revision3 or Discover network)*
+*This is a complete re-write of the original unmaintained addon developed by stacked.*
